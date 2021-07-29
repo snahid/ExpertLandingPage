@@ -55,3 +55,26 @@ $('.owl-carousel').owlCarousel({
         }
     });
  });
+
+
+
+ let category = document.getElementById("category");
+ let break_right = document.getElementById("break-right");
+ let break_left = document.getElementById("break-left");
+ let para = document.getElementById("para");
+
+ let viewHeight = Math.max(
+    document.documentElement.clientHeight,
+    window.innerHeight || 0
+  );
+  console.log(viewHeight);
+
+  if(viewHeight == 1200){
+    category.style.marginTop = "280px";
+  }
+  if(viewHeight == 600){
+    break_left.style.paddingTop = "20px";
+    break_right.style.paddingTop = "15px";
+    category.style.marginTop = "100px";
+    para.style.marginBottom = "15px";
+  }
