@@ -10,35 +10,58 @@ body {
 
 // Break barrier 
 .break-barrier-wrapper{
+  background-image: url(../../assets/images/brakebg.png);
+  background-repeat: no-repeat;
+  background-position: 0rem;
+  // background-size: 6rem;
+  position: relative;
+  margin-bottom: 140px;
+
+  @media(max-width: 1680px){
+    margin-bottom: 140px;
+    background-size: 7rem;
+  }
+  @media(max-width: 1600px){
+    background-size: 8rem;
+    margin-bottom: 100px;
+    background-position: 0rem 4rem;
+  }
+  @media(max-width: 1440px){
+    margin-bottom: 130px;
+  }
+  @media(max-width: 1366px){
+    background-size: 7rem;
+    margin-bottom: 120px;
+  }
+  @media(max-width: 1280px){
+    background-size: 0rem;
+  }
   @media(max-width: 1024px){
     margin-bottom: 95px;
   }
   @media(max-width: 767px){
     padding-bottom: 30px;
   }
-
-  position: relative;
-  margin-bottom: 200px;
-  @media(max-width: 1680px){
-    margin-bottom: 170px;
-  }
-  @media(max-width: 1440px){
-    margin-bottom: 150px;
-  }
   .container-fluid{
       .row{
-        .col-md-5{
+        .col-md-6{
           .break-left{
             // padding-top: 50px;
             padding-top: 90px;
             @media(max-width: 1680px){
               padding-top: 75px;
             }
+            @media(max-width: 1600px){
+              padding-top: 40px;
+            }
             @media(max-width: 1440px){
               padding-top: 60px;
             }
+            @media(max-width: 1366px){
+              padding-top: 35px;
+            }
             @media(max-width: 1024px){
-              padding-top: 15px;
+              padding-top: 40px;
             }
             @media(max-width: 767px){
               padding-top: 10px;
@@ -57,9 +80,9 @@ body {
                 margin-bottom: 15px;
               }
               @media(max-width: 1024px){
-                font-size: 32px;
-                line-height: 22px;
-                margin-bottom: 20px;
+                font-size: 40px;
+                line-height: 45px;
+                margin-bottom: 15px;
               }
 
               @media(max-width: 991px){
@@ -98,6 +121,9 @@ body {
               line-height: 36px;
               padding-right: 45px;
               margin-bottom: 30px;
+              @media(max-width: 1680px){
+                padding-right: 30px;
+              }
               @media(max-width: 1600px){
                 font-size: 16px;
                 line-height: 30px;
@@ -105,6 +131,9 @@ body {
               @media(max-width: 1440px){
                 line-height: 28px;
                 padding-right: 30px;
+              }
+              @media(max-width: 1366px){
+                padding-right: 0px;
               }
               @media(max-width: 1024px){
                 font-size: 14px;
@@ -202,17 +231,23 @@ body {
             }
           }
         }
-        .col-md-7{
+        .col-md-6{
           .break-right{
             padding-top: 75px;
             @media(max-width: 1680px){
               padding-top: 60px;
             }
+            @media(max-width: 1600px){
+              padding-top: 30px;
+            }
             @media(max-width: 1440px){
               padding-top: 50px;
             }
+            @media(max-width: 1366px){
+              padding-top: 25px;
+            }
             @media(max-width: 1024px){
-              padding-top: 15px;
+              padding-top: 40px;
             }
             @media(max-width: 575px){
               padding-top: 25px;
@@ -252,8 +287,8 @@ body {
 .category-wrapper{
   background-image: url(../assets/images/category-right.png);
   background-repeat: no-repeat;
-  background-position: right 0rem;
-  background-size: 7rem;
+  background-position: right 4rem;
+  background-size: 6rem;
   background-color: #f6f4f4;
   padding: 0px 0px 56px 0px;
   margin-top: 120px;
@@ -261,8 +296,20 @@ body {
   border: 0px solid transparent;
   border-radius: 50%/20px 20px 0 0;
   position: relative;
+  @media(max-width: 1680px){
+    margin-top: 150px;
+  }
+  @media(max-width: 1600px){
+    margin-top: 105px;
+  }
   @media(max-width: 1440px){
     background-image: unset;
+  }
+  @media(max-width: 1366px){
+    padding: 0px 0px 30px 0px;
+  }
+  @media(max-width: 1024px){
+    margin-top: 150px;
   }
   @media(max-width: 767px){
     padding-top: 55px;
@@ -304,7 +351,7 @@ body {
             .mycard-inner{
               margin-top: -80px;
               // padding: 25px 15px; 
-              padding: 29px 25px;
+              padding: 29px 25px 29px 40px;
               border-radius: 8px;
               background-color: #F6F4F4;
               transition: 0.5s ease;
@@ -312,8 +359,23 @@ body {
               filter: drop-shadow(0px 4px 25px rgba(0, 0, 0, 0.05));
               display: flex;
               flex-direction: row;
-              // width: 65%;
+              width: 76%;
               align-items: center;
+
+              @media(max-width: 1600px){
+                width: 80%;
+              }
+
+              @media(max-width: 1440px){
+                width: 90%;
+              }
+              @media(max-width: 1366px){
+                width: 80%;
+                padding: 20px 20px 20px 30px;
+              }
+              @media(max-width: 1024px){
+                width: 90%;
+              }
               // @media(max-width: 1680px){
               //   width: 80%;
               // }
@@ -345,6 +407,14 @@ body {
                   height: 200px;
                   position: relative;
                   transition: 0.5s ease;
+                  @media(max-width: 1366px){
+                    width: 170px;
+                    height: 170px;
+                  }
+                  @media(max-width: 1024px){
+                    width: 160px;
+                    height: 160px;
+                  }
                   // @media(max-width: 900px){
                   //   width: 130px;
                   //   height: 130px;
@@ -363,6 +433,15 @@ body {
                     left: 50%;
                     top: 50%;
                     transform: translate(-50%,-50%);
+
+                    @media(max-width: 1366px){
+                      width: 141px;
+                      height: 160px;
+                    }
+                    @media(max-width: 1024px){
+                      width: 121px;
+                      height: 140px;
+                    }
                     @media(max-width: 900px){
                       width: 110px;
                       height: 110px;
@@ -376,15 +455,37 @@ body {
                     // height: 100px;
                     width: 200px;
                     height: 146px;
+
+                    @media(max-width: 1366px){
+                      width: 175px;
+                      height: 121px;
+                    }
+                    @media(max-width: 1024px){
+                      width: 155px;
+                      height: 101px;
+                    }
                   }
                 }
              
               }
               .mycard-right{
+                padding-left: 45px;
+
+                @media(max-width: 1440px){
+                  padding-left: 65px;
+                }
+                @media(max-width: 1366px){
+                  padding-left: 35px;
+                }
                 h5{
                   font-size: 24px;
                   font-weight: 500;
                   color: #000000;
+                  margin-bottom: 15px;
+                  @media(max-width: 1366px){
+                    margin-bottom: 10px;
+                  }
+                
                   @media(max-width: 900px){
                     font-size: 22px;
                   }
@@ -395,6 +496,9 @@ body {
                   color: #000000;
                   font-weight: 500;
                   line-height: 34px;
+                  @media(max-width: 1366px){
+                    line-height: 30px;
+                  }
                   @media(max-width: 900px){
                     font-size: 14px;
                   }
@@ -402,7 +506,7 @@ body {
                     color: #fccc4f;
                   }
                   br{
-                    display: none;
+                    // display: none;
                     // @media(max-width: 991px){
                     //   display: block;
                     // }
@@ -827,6 +931,10 @@ body {
   max-width: 1520px;
   margin-left: auto;
   margin-right: auto;
+
+  @media(max-width: 1680px){
+    max-width: 1440px;
+  }
   @media(max-width: 1600px){
     max-width: 1300px;
   }
