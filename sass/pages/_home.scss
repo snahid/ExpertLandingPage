@@ -30,7 +30,7 @@ body {
     margin-bottom: 130px;
   }
   @media(max-width: 1366px){
-    background-size: 7rem;
+    background-size: 6rem;
     margin-bottom: 120px;
   }
   @media(max-width: 1280px){
@@ -41,6 +41,7 @@ body {
   }
   @media(max-width: 767px){
     padding-bottom: 30px;
+    margin-bottom: 0;
   }
   .container-fluid{
       .row{
@@ -314,12 +315,13 @@ body {
   @media(max-width: 767px){
     padding-top: 55px;
     padding-bottom: 30px;
+    margin-top: 0;
   }
   .left{
     position: absolute;
     left: 0;
     bottom: -60px;
-    @media(max-width: 767px){
+    @media(max-width: 1024px){
       display: none;
     }
   }
@@ -327,7 +329,7 @@ body {
     position: absolute;
     right: 10px;
     top: -38px;
-    @media(max-width: 767px){
+    @media(max-width: 1024px){
       display: none;
     }
   }
@@ -376,6 +378,9 @@ body {
               @media(max-width: 1024px){
                 width: 90%;
               }
+              @media(max-width: 1000px){
+                width: 100%;
+              }
               // @media(max-width: 1680px){
               //   width: 80%;
               // }
@@ -414,6 +419,14 @@ body {
                   @media(max-width: 1024px){
                     width: 160px;
                     height: 160px;
+                  }
+                  @media(max-width: 900px){
+                    width: 130px;
+                    height: 130px;
+                  }
+                  @media(max-width: 796px){
+                    width: 115px;
+                    height: 115px;
                   }
                   // @media(max-width: 900px){
                   //   width: 130px;
@@ -464,6 +477,10 @@ body {
                       width: 155px;
                       height: 101px;
                     }
+                    @media(max-width: 796px){
+                      width: 120px;
+                      height: 80px;
+                    }
                   }
                 }
              
@@ -477,6 +494,9 @@ body {
                 @media(max-width: 1366px){
                   padding-left: 35px;
                 }
+                @media(max-width: 900px){
+                  padding-left: 20px;
+                }
                 h5{
                   font-size: 24px;
                   font-weight: 500;
@@ -489,6 +509,10 @@ body {
                   @media(max-width: 900px){
                     font-size: 22px;
                   }
+                  @media(max-width: 796px){
+                    font-size: 20px;
+                    margin-bottom: 5px;
+                  }
                 }
                 p{
                   // font-size: 16px;
@@ -500,7 +524,12 @@ body {
                     line-height: 30px;
                   }
                   @media(max-width: 900px){
-                    font-size: 14px;
+                   font-size: 18px;
+                   line-height: 26px;
+                  }
+                  @media(max-width: 796px){
+                    font-size: 16px;
+                    line-height: 22px;
                   }
                   span{
                     color: #fccc4f;
@@ -571,12 +600,8 @@ body {
                 width: 45%;
               }
               @media(max-width: 500px){
-               width: 80%;
+               width: 45%;
                height: auto;
-               padding-bottom: 20px;
-              }
-              @media(max-width: 480px){
-                width: 95%;
               }
               }
               .icon-none{
@@ -588,12 +613,8 @@ body {
                   width: 52%;
                 }
                 @media(max-width: 500px){
-                width: 85%;
+                width: 50%;
                 height: auto;
-                padding-bottom: 20px;
-                }
-                @media(max-width: 480px){
-                  width: 100%;
                 }
               }
              .card-body{
@@ -608,7 +629,7 @@ body {
                   line-height: unset;
                 }
                 @media(max-width: 767px){
-                  margin-bottom: 10px;
+                 margin: 0;
                 }
                }
                p{
