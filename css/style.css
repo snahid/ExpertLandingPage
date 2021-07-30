@@ -398,7 +398,7 @@ body {
 }
 
 .break-barrier-wrapper {
-  background-image: url(../../assets/images/brakebg.png);
+  background-image: url(../assets/images/brakebg.png);
   background-repeat: no-repeat;
   background-position: 0rem;
   position: relative;
