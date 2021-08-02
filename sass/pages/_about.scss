@@ -203,6 +203,18 @@
               font-size: 34px;
               line-height: 40px;
             }
+            @media(max-width: 372px){
+              font-size: 32px;
+            }
+            @media(max-width: 352px){
+              font-size: 30px;
+            }
+            @media(max-width: 331px){
+              font-size: 29px;
+            }
+            @media(max-width: 321px){
+              font-size: 28px;
+            }
               span{
                 color: #fccc4f;
               }
@@ -387,6 +399,7 @@
     @media(max-width: 767px){
       padding-top: 55px;
       padding-bottom: 30px;
+      border-radius: 0;
     }
     .left{
         position: absolute;
@@ -1012,6 +1025,9 @@
         opacity: 0.05;
         z-index: -1;
         border-radius: 50%/20px 20px 0 0;
+        @media(max-width: 767px){
+          border-radius: 0;
+        }
     }
     .container-fluid{
         .row{

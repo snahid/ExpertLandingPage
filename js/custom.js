@@ -70,7 +70,6 @@ $('.owl-carousel').owlCarousel({
        document.documentElement.clientHeight,
        window.innerHeight || 0
      );
-     console.log(viewHeight);
    
      if(viewHeight == 1200){
        category.style.marginTop = "280px";
