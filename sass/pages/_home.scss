@@ -66,6 +66,7 @@ body {
             }
             @media(max-width: 767px){
               padding-top: 10px;
+              margin-bottom: 15px;
             }
             h3{
               font-size: 48px;
@@ -99,16 +100,60 @@ body {
               font-size: 26px;
             }
             @media(max-width: 767px){
-              font-size: 34px;
+              font-size: 48px;
               line-height: 40px;
+            }
+            @media(max-width: 669px){
+              font-size: 47px;
+            }
+            @media(max-width: 646px){
+              font-size: 46px;
+            }
+            @media(max-width: 633px){
+              font-size: 45px;
+            }
+            @media(max-width: 619px){
+              font-size: 44px;
+            }
+            @media(max-width: 606px){
+              font-size: 42px;
+            }
+            @media(max-width: 580px){
+              font-size: 40px;
+            }
+            @media(max-width: 575px){
+              font-size: 30px;
+              line-height: 20px;
+              padding-top: 10px;
+            }
+            @media(max-width: 423px){
+              font-size: 28px;
+            }
+            @media(max-width: 397px){
+              font-size: 27px;
+            }
+            @media(max-width: 383px){
+              font-size: 26px;
+            }
+            @media(max-width: 370px){
+              font-size: 25px;
+            }
+            @media(max-width: 357px){
+              font-size: 24px;
+            }
+            @media(max-width: 344px){
+              font-size: 23px;
+            }
+            @media(max-width: 331px){
+              font-size: 22px;
             }
 
             br{
               @media(max-width: 1024px){
               display: none;
               }
-              @media(max-width: 767px){
-               display: block;
+              @media(max-width: 575px){
+                display: none;
               }
             }
               span{
@@ -250,8 +295,8 @@ body {
             @media(max-width: 1024px){
               padding-top: 40px;
             }
-            @media(max-width: 575px){
-              padding-top: 25px;
+            @media(max-width: 767px){
+              padding-top: 0px;
             }
             img{
               width: 100%;
@@ -313,9 +358,11 @@ body {
     margin-top: 150px;
   }
   @media(max-width: 767px){
-    padding-top: 55px;
-    padding-bottom: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     margin-top: 0;
+    border-radius: 0;
+    background-color: unset;
   }
   .left{
     position: absolute;
@@ -565,6 +612,9 @@ body {
             text-decoration: none;
             text-align: center;
             .card-border{
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
               padding: 40px 30px;
               width: 80%;
               text-align: center;
@@ -582,6 +632,12 @@ body {
                 width: 100%;
                 padding: 30px;
               }
+              @media(max-width: 500px){
+                padding: 25px 10px;
+              }
+              @media(max-width: 450px){
+                padding: 15px 10px;
+              }
               &:hover{
                 background-color: #ffffff;
                 border: 1px solid #fff;
@@ -594,30 +650,49 @@ body {
                   display: block;
                 }
               }
-              img{
-              width: 50%;
-              @media(max-width: 1440px){
-                width: 45%;
-              }
-              @media(max-width: 500px){
-               width: 45%;
-               height: auto;
-              }
-              }
-              .icon-none{
-                display: none;
-              }
-              .icon-small{
-                width: 58%;
-                @media(max-width: 1440px){
-                  width: 52%;
-                }
-                @media(max-width: 500px){
-                width: 50%;
-                height: auto;
+              .card_left{
+                width: 150px;
+                @media(max-width: 401px){
+                  width: 120px;
                 }
               }
-             .card-body{
+                img{
+                  width: 50%;
+                  @media(max-width: 1440px){
+                    width: 45%;
+                  }
+                  @media(max-width: 767px){
+                  //  width: 45%;
+                  width: 121px;
+                   height: auto;
+                  }
+                  @media(max-width: 401px){
+                    width: 100px;
+                  }
+                  }
+                  .icon-none{
+                    display: none;
+                  }
+                  .icon-small{
+                    width: 58%;
+                    @media(max-width: 1440px){
+                      width: 52%;
+                    }
+                    @media(max-width: 767px){
+                    width: 130px;
+                    height: auto;
+                    }
+                    @media(max-width: 401px){
+                      width: 110px;
+                    }
+                  }
+             
+             
+             .card_right{
+               text-align: left;
+               @media(max-width: 401px){
+                padding-left: 10px;
+               }
                h5{
                  color: #492D21;
                  font-size: 30px;
@@ -630,6 +705,10 @@ body {
                 }
                 @media(max-width: 767px){
                  margin: 0;
+                }
+                @media(max-width: 500px){
+                  font-size: 18px;
+                  font-weight: bold;
                 }
                }
                p{
@@ -650,6 +729,10 @@ body {
                 @media(max-width: 767px){
                   font-size: 18px;
                 }
+                @media(max-width: 500px){
+                  font-size: 14px;
+                  font-weight: bold;
+                }
                 //  @media(max-width: 500px){
                 //   font-size: 14px;
                 //  }
@@ -659,6 +742,13 @@ body {
                }
                .get{
                  margin-bottom: 0px;
+
+                 br{
+                   display: none;
+                   @media(max-width: 380px){
+                    display: block;
+                   }
+                 }
                }
              }
             }
@@ -711,6 +801,9 @@ body {
       @media(max-width: 767px){
         font-size: 34px;
       }
+      @media(max-width: 365px){
+        font-size: 29px;
+      }
         span{
           color: #fccc4f;
         }
@@ -756,20 +849,45 @@ body {
         @media(max-width: 1024px){
           padding-right: 0;
         }
+        .small-device-img{
+          img{
+            width: 100%;
+            display: none;
+            @media(max-width: 767px){
+              display: block;
+              margin-bottom: 20px;
+            }
+          }
+        }
         h5{
           font-size: 36px;
           color: #492D21;
           font-weight: 500;
           margin-bottom: 20px;
+          position: relative;
           @media(max-width: 1600px){
             font-size: 30px;
           }
           @media(max-width: 1280px){
             font-size: 28px;
           }
+          @media(max-width: 767px){
+            margin-bottom: 0;
+          }
           @media(max-width: 500px){
             font-size: 24px;
             margin-bottom: 10px;
+          }
+        }
+        .small-border{
+          background-color: #492D21;
+          width: 100%;
+          height: 1px;
+          opacity: 10%;
+          margin: 10px 0px 15px 0px;
+          display: none;
+          @media(max-width: 767px){
+            display: block;
           }
         }
         p{
@@ -794,6 +912,7 @@ body {
           }
           @media(max-width: 767px){
             padding-top: 0;
+            display: none;
           }
         }
       }
@@ -823,9 +942,23 @@ body {
           @media(max-width: 1280px){
             font-size: 28px;
           }
+          @media(max-width: 767px){
+            margin-bottom: 0;
+          }
           @media(max-width: 500px){
             font-size: 24px;
             margin-bottom: 10px;
+          }
+        }
+        .small-border{
+          background-color: #492D21;
+          width: 100%;
+          height: 1px;
+          opacity: 10%;
+          margin: 10px 0px 15px 0px;
+          display: none;
+          @media(max-width: 767px){
+            display: block;
           }
         }
         p{
@@ -857,11 +990,13 @@ body {
   background-repeat: no-repeat;
   background-position: 0rem 6rem, 0rem 58rem, right 5rem;
   position: relative;
+
   @media(max-width: 1900px){
     background-image: unset;
   }
   @media(max-width: 767px){
-    padding: 55px 0;
+    padding: 35px 0px 50px 0px;
+    border-radius: 0;
   }
   img{
     width: 38px;
@@ -870,6 +1005,9 @@ body {
     position: absolute;
     right: 10px;
     top: -58px;
+    @media(max-width: 767px){
+      display: none;
+    }
   }
   .container{
     .top{
@@ -892,6 +1030,9 @@ body {
       @media(max-width: 767px){
         font-size: 34px;
         margin-bottom: 5px;
+      }
+      @media(max-width: 365px){
+        font-size: 29px;
       }
         span{
           color: #fccc4f;
@@ -926,6 +1067,9 @@ body {
         @media(max-width: 991px){
           padding: 0;
         }
+        @media(max-width: 767px){
+          margin-bottom: 40px;
+        }
         @media(max-width: 500px){
           font-size: 14px;
         }
@@ -933,12 +1077,78 @@ body {
     }
   }
   .container-fluid{
-    img{
+    .big_img{
       width: 100%;
       @media(max-width: 767px){
         margin-top: 30px;
+        display: none;
       }
     }
+    .small-device-width{
+      display: none;
+      @media(max-width: 767px){
+        display: block;
+      }
+      .box{
+        margin-bottom: 20px;
+        .img-right{
+          text-align: right;
+          img{
+            width: unset;
+          }
+        }
+        .img-left{
+          img{
+            width: unset;
+          }
+        }
+        .para{
+          background-color: #ffffff;
+          border-radius: 8px;
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+          padding: 15px;
+          text-align: center;
+          p{
+            font-size: 18px;
+            line-height: 24px;
+            color: #000000;
+            font-weight: 500;
+            margin: 0;
+          }
+        }
+        .para-1{
+          margin-top: -10px;
+        }
+        .para-2{
+          margin-top: -40px;
+        }
+        .para-3{
+          margin-top: -37px;
+        }
+        .para-4{
+          margin-top: -23px;
+        }
+        .para-5{
+          margin-top: -60px;
+        }
+        .para-6{
+          margin-top: -46px;
+        }
+        .para-7{
+          margin-top: -13px;
+        }
+        .para-8{
+          margin-top: -48px;
+        }
+        .para-9{
+          margin-top: -28px;
+        }
+        .para-10{
+          margin-top: -38px;
+        }
+      }
+    }
+
   }
 }
 // High Level Work Flow 
