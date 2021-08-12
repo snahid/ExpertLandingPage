@@ -48,7 +48,7 @@ body {
         .col-md-6{
           .break-left{
             // padding-top: 50px;
-            padding-top: 90px;
+            padding-top: 75px;
             @media(max-width: 1680px){
               padding-top: 75px;
             }
@@ -69,20 +69,20 @@ body {
               margin-bottom: 15px;
             }
             h3{
-              font-size: 48px;
-              line-height: 72px;
+              font-size: 45px;
+              line-height: 50px;
               font-weight: 500;
               color: #000000;
               margin-bottom: 20px;
               @media(max-width: 1600px){
-                font-size: 42px;
+                font-size: 36px;
                 line-height: 50px;
               }
               @media(max-width: 1440px){
                 margin-bottom: 15px;
               }
               @media(max-width: 1024px){
-                font-size: 40px;
+                font-size: 30px;
                 line-height: 45px;
                 margin-bottom: 15px;
               }
@@ -162,9 +162,9 @@ body {
             }
             p{
               color: #656565;
-              font-size: 18px;
+              font-size: 16px;
               font-weight: 400;
-              line-height: 36px;
+              line-height: 28px;
               padding-right: 45px;
               margin-bottom: 30px;
               @media(max-width: 1680px){
@@ -279,7 +279,7 @@ body {
         }
         .col-md-6{
           .break-right{
-            padding-top: 75px;
+            padding-top: 40px;
             @media(max-width: 1680px){
               padding-top: 60px;
             }
@@ -299,7 +299,7 @@ body {
               padding-top: 0px;
             }
             img{
-              width: 100%;
+              width: 80%;
             }
           } 
         }
@@ -400,7 +400,7 @@ body {
             .mycard-inner{
               margin-top: -80px;
               // padding: 25px 15px; 
-              padding: 29px 25px 29px 40px;
+              padding: 25px 25px 25px 30px;
               border-radius: 8px;
               background-color: #F6F4F4;
               transition: 0.5s ease;
@@ -455,8 +455,8 @@ body {
                   background-color: #ffffff;
                   // padding: 30px;
                   border-radius: 50%;
-                  width: 200px;
-                  height: 200px;
+                  width: 185px;
+                  height: 185px;
                   position: relative;
                   transition: 0.5s ease;
                   @media(max-width: 1366px){
@@ -487,8 +487,8 @@ body {
                     // width: 130px;
                     // height: 130px;
                     // width: 100%;
-                    width: 166px;
-                    height: 185px;
+                    width: 150px;
+                    height: 150px;
                     position: absolute;
                     left: 50%;
                     top: 50%;
@@ -513,8 +513,8 @@ body {
                   }
                   .icon-block{
                     // height: 100px;
-                    width: 200px;
-                    height: 146px;
+                    width: 170px;
+                    height: 130px;
 
                     @media(max-width: 1366px){
                       width: 175px;
@@ -565,7 +565,7 @@ body {
                   font-size: 20px;
                   color: #000000;
                   font-weight: 500;
-                  line-height: 34px;
+                  line-height: 30px;
                   @media(max-width: 1366px){
                     line-height: 30px;
                   }
@@ -920,10 +920,10 @@ body {
 // How Works 
 .how-works-wrapper{
   padding: 60px 0px;
-  background-image: url(../assets/images/abt-section-bg-1.png), url(../assets/images/dots-vector.png), url(../assets/images/compound.png), url(../assets/images/how-workbg.png);
+  background-image: url(../assets/images/abt-section-bg-1.png), url(../assets/images/dots-vector.png), url(../assets/images/compound.png);
   background-repeat: no-repeat;
-  background-position: 0rem 8rem, 0rem 50rem, 27rem 52rem, right 48rem;
-  background-size: 1, 1, 1, 1;
+  background-position: 0rem 8rem, 0rem 50rem, 27rem 52rem;
+  background-size: 1, 1, 1;
   @media(max-width: 1900px){
    background-image: unset;
   }
@@ -939,7 +939,7 @@ body {
       }
       h3{
         color: #000000;
-        font-size: 64px;
+        font-size: 45px;
         font-weight: 500;
         @media(max-width: 1600px){
           font-size: 42px;
@@ -1146,7 +1146,7 @@ body {
   border-radius: 50%/20px 20px 0 0;
   background-image: url(../assets/images/flow-left-top.png), url(../assets/images/flow-left-bottom.png), url(../assets/images/right.png);
   background-repeat: no-repeat;
-  background-position: 0rem 6rem, 0rem 58rem, right 5rem;
+  background-position: 0rem 6rem, 0rem 50rem, right 5rem;
   position: relative;
 
   @media(max-width: 1900px){
@@ -1172,7 +1172,7 @@ body {
       text-align: center;
       h3{
         color: #000000;
-        font-size: 64px;
+        font-size: 45px;
         font-weight: 500;
         @media(max-width: 1600px){
           font-size: 42px;
